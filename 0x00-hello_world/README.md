@@ -1,1 +1,1 @@
-a script that runs a C file through the preprocessor and save the result into another file
+A program that print a line using a puts function
