@@ -3,7 +3,7 @@
  * _strchr - Seaches for the first occurence of character c
  * @s: The string to be scanned
  * @c: The character to be searched in string s
- * Return: Return the pointer to first occurence of the character c or NULL if character not found
+ * Return: Return the pointer to first occurence of the character
  */
 char *_strchr(char *s, char c)
 {

@@ -2,9 +2,10 @@
 #include <stdio.h>
 /**
  * puts - print a string to stdout
- * main - Entry point
  *
  * Return: Always 0 (Success)
+ *@str: string to be printed
+ *@main - Entry point
  */
 void _puts(char *str);
 int main(void)

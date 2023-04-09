@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - Return the lenth of the initial substring of the string ponted by str1
+ * _strspn - Return the lenth of the initial substring of the string
  * @s: input
  * @accept: input
  * Return: Always 0 (Success)
