@@ -3,7 +3,7 @@
 /**
  * _memset - Functions name
  * @s: pointer
- * b: character to initialized
+ * @b: character to be filled
  * @n: the size in bytes
  * Return: pointer
  */
@@ -18,7 +18,7 @@ char *_memset(char *s, char b, unsigned int n)
 	return (s);
 }
 /**
- * -calloc - the functions name;
+ * _calloc - the functions name;
  *  @nmemb: elements
  *  @size: size in bytes
  *  Return: pointer
@@ -26,6 +26,7 @@ char *_memset(char *s, char b, unsigned int n)
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
+
 	p = malloc(nmemb * size);
 	if (p == NULL)
 		return (NULL);
