@@ -1,14 +1,11 @@
-#in	iclude <stdlib.h>
-
+#include <stdlib.h>
 #include <string.h>
-
 #include "lists.h"
 
 /**
- * add_node_end - adds a new node at the end 
+ * add_node_end - adds a new node at the end
  * @head: double pointer to the list_t list
  * @str: string to put in the new node
- *
  * Return: address new elem, or NULL if it failed
  */
 
@@ -42,24 +39,13 @@ new->next = NULL;
 
 
 if (*head == NULL)
-
 {
-
 *head = new;
-
 return (new);
-
 }
-
-
 while (temp->next)
-	
 temp = temp->next;
-
-
 temp->next = new;
-
-
 return (new);
 }
 
