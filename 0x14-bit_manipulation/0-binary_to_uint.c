@@ -15,7 +15,7 @@ if (!b)
 return (0);
 for (i = 0; b[i]; i++)
 {
-if (b[i] < '0' || b[i] . '1')
+if (b[i] < '0' || b[i] > '1')
 return (0);
 dv = 2 * dv + (b[i] - '0');
 }
