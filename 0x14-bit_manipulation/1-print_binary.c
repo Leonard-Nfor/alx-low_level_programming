@@ -12,10 +12,10 @@ void print_binary(unsigned long int n)
 	{
 		curr = n >> i;
 
-		if (current & 1)
+		if (curr & 1)
 		{
 			_putchar('1');
-			count++;
+			c++;
 		}
 		else if (c)
 			_putchar('0');
